@@ -10,7 +10,7 @@ jobs:
       matrix:
         py:
           - 'cpython-3.8'
-          - 'cpython-3.9'
+          - 'cpython-3.9.1'
         vcvars:
           - 'vcvars32.bat'
           - 'vcvars64.bat'
