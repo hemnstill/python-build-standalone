@@ -9,10 +9,8 @@ jobs:
       fail-fast: false
       matrix:
         py:
-          - 'cpython-3.8'
-          - 'cpython-3.9.1'
+          - 'cpython-3.9'
         vcvars:
-          - 'vcvars32.bat'
           - 'vcvars64.bat'
         profile:
           - 'static-noopt'
